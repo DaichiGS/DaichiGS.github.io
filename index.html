@@ -1,51 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
-<nav class="navbar navbar-expand-sm bg-light">
-  <div class="container-fluid"> 
-    <ul class="navbar-nav">
-      <li class="nav-item"><a href="index.html" class="nav-link">Meme Art</a></li>
-      <li class="nav-item"><a href="index2.html" class="nav-link">Glitch Art</a></li>
-      <li class="nav-item"><a href="index3.html" class="nav-link">3D Art</a></li>
-      <li class="nav-item"><a href="index3.html" class="nav-link">Photoshop</a></li>
-      <li class="nav-item"><a href="index3.html" class="nav-link">Pixel Art</a></li>
-      <li class="nav-item"><a href="index3.html" class="nav-link">Net Art</a></li>
-    </ul>
-  </div>
-</nav>
+<body class="bg-light">
 
+  <h1 class="container d-flex justify-content-center flex-wrap gap-3">Gallary</h1>
+  <nav class="navbar navbar-expand-sm bg-light mb-4 shadow-sm">
+    <div class="container-fluid"> 
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a href="meme_art.html" class="nav-link">Meme Art</a></li>
+        <li class="nav-item"><a href="glitch_cat.html" class="nav-link">Glitch Art</a></li>
+        <li class="nav-item"><a href="3D_modeling.html" class="nav-link">3D Art</a></li>
+        <li class="nav-item"><a href="photoshop.html" class="nav-link">Photoshop</a></li>
+        <li class="nav-item"><a href="net_art.html" class="nav-link">Net Art</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<div class="row">
-  <div class="col">
-    <div class="card" style="width:400px">
-      <div class="card-body">
-        <h4 class="card-title">Glitched cat</h4>
-        <img src="cat-glitch.jpeg" alt="" width="300px" height="300px"  class="img-fluid img-thumbnail card-img-top">
-        <p class="card-text">Imaged text code changed to appear glitched.</p>
-        <a href="index.html" class="card-link">Glitch Cat</a>
-        <!-- <a href="#" class="card-link">Another link</a> -->
+  <div class="container d-flex justify-content-center flex-wrap gap-5">
+    <!-- Card 1 Meme Art -->
+    <div class="card" style="width: 18rem;">
+      <div class="card-body text-center">
+        <a href="meme_art.html" class="card-link">
+          <img src="monalisa-grumpycat.jpg" class="card-img-top img-fluid img-thumbnail" alt="Glitched cat" height="300">
+        </a>
+        <h4 class="card-title">Meme Art</h4>
+
       </div>
     </div>
-  </div>
-  <div class="col">
-    <div class="card" style="width:400px">
-      <div class="card-body">
-        <h4 class="card-title">Glitched cat</h4>
-        <img src="cat-glitch.jpeg" alt="" width="300px" height="300px"  class="img-fluid img-thumbnail card-img-top">
-        <p class="card-text">Imaged text code changed to appear glitched.</p>
-        <a href="index.html" class="card-link">Glitch Cat</a>
-        <!-- <a href="#" class="card-link">Another link</a> -->
+
+    <!-- Card 2 Glitch Cat-->
+    <div class="card" style="width: 18rem;">
+      <div class="card-body text-center">
+        <a href="glitch_cat.html" class="card-link">      
+          <img src="cat-glitch.jpeg" class="card-img-top img-fluid img-thumbnail" alt="Glitched cat" height="300">
+        </a>
+        <h4 class="card-title">Glitched Cat</h4>
+
       </div>
     </div>
+    <!-- Card 3 Photoshop -->
+    <div class="card" style="width: 18rem;">
+      <div class="card-body text-center">
+        <a href="photoshop.html" class="card-link">
+          <img src="goldship-glitch.png" class="card-img-top img-fluid img-thumbnail" alt="Glitched cat" height="300">
+
+        </a>
+        <h4 class="card-title">Photoshop Cat</h4>
+
+      </div>
+    </div>
+    <!-- Card 4 3D Modeling -->
+    <div class="card" style="width: 18rem;">
+      <div class="card-body text-center">
+        <a href="3D_modeling.html" class="card-link">
+          <img src="chopperhat.jpg" class="card-img-top img-fluid img-thumbnail" alt="Glitched cat" height="300">
+        </a>
+        <h4 class="card-title">3D Modeling</h4>
+
+      </div>
+    </div>
+    <!-- Card 5 Net Art -->
+    <div class="card" style="width: 18rem;">
+      <!-- <img src="netart.png" class="card-img-top img-fluid img-thumbnail" alt="Glitched cat" height="300"> -->
+      <div class="card-body text-center">
+        <!-- <p class="card-text">Image text code changed to appear glitched.</p> -->
+        <a href="net_art.html" class="card-link">       
+          <img src="netart.png" class="card-img-top img-fluid img-thumbnail" alt="Glitched cat" height="300">
+        </a>
+        <h4 class="card-title">Net Art</h4>
+
+      </div>
+    </div>
+    
   </div>
-</div>
 
 </body>
 </html>
